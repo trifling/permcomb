@@ -45,7 +45,7 @@ At each step the current item in the sequence will be stored in the array `a`, w
 of at least of length `k` for combinations and permutations with replacement, and at least of length `n` for 
 permutations.
 
-## Installation
+# Installation
 
 Permcomb can be built into a static or dynamic library using cmake.
 
@@ -55,6 +55,6 @@ For example, to build and install a dynamic version of permcomb in /usr/local:
 $ mkdir bld && cd bld && cmake -DCMAKE_INSTALL_PREFIX=/usr/local ../ && make && make install && cd ..
 ``` 
 
-# Simplified BSD License
+## Simplified BSD License
 Copyright (c) 2015, Daniel Pena 
 
